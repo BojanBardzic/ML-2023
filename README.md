@@ -14,6 +14,9 @@ Sa stranice su preuzete sledeće datoteke:
 U skupu podataka nalaze se fotografije karaktera u stvarnom svetu,slike ručno pisanih karaktera kao i slike karaktera u različitim kompjuterskim fontovima.   
 Ukupno 78905 slika različitih dimenzija i fromata (rgb i grayscale).
 
+Potrebno je raspakovati ove datoteke u folder projekta tako da na kraju
+sve tri vrste slika budu u direktorijumu **English**.
+
 ## **Paketi**
 Za pokretanje jupyter sveske potrebni su vam sledeći paketi:
 - [**Tensorflow**](https://www.tensorflow.org/install)
@@ -21,4 +24,7 @@ Za pokretanje jupyter sveske potrebni su vam sledeći paketi:
 - [**Numpy**](https://numpy.org/doc/stable/user/absolute_beginners.html) 
 - [**Matplotlib**](https://matplotlib.org/stable/users/getting_started/)
 - [**Pillow**](https://pypi.org/project/Pillow/)
-- 
+- [**Scikit-learn**](https://scikit-learn.org/stable/install.html)
+
+Takođe je potrebno imati instaliran [**Jupyter notebook**](https://jupyter.org/).
+
