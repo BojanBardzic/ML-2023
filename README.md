@@ -47,7 +47,7 @@ Takođe je opseg vrednosti piksela skaliran sa celobrojnog **[0, 255]** na opseg
 
 Podaci su raspodeljeni u 62 klase na sledeći način:
 
-![raspodela podataka po klasma](images\data_distribution_by_class.png) 
+![raspodela podataka po klasma](images/data_distribution_by_class.png) 
 
 Može se videti da su neke klase brojnije od drugih ali da su podaci ipak ravnomerno
 raspodeljeni po klasama.
@@ -55,7 +55,7 @@ raspodeljeni po klasama.
 Još jedna zanimljiva stvar koju možemo videti je ne samo raspodeljenost po klasama,
 nego raspodeljenost po paru **(tip, klasa)**, gde je tip slika, rukopis ili font.  
 
-![raspodela podataka po tipu i klasi](images\data_distribution_by_class_and_type.png)
+![raspodela podataka po tipu i klasi](images/data_distribution_by_class_and_type.png)
   
 Vidimo da u skupu podataka najviše ima slika fontova, pa onda slika koje su fotografije, dok najmanje ima slika ručno pisanih karaktera.
 
