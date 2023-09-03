@@ -309,3 +309,12 @@ Međutim kada zumiramo u polja van dijagonala u prvoj matrici vidimo sitne greš
 ## **Zaključak**
 
 Oba modela daju zadovoljavajuće rezultate, dok drugi model pruža blago bolje performanse od prvog.
+
+## **Linkovi do modela**
+
+Ukoliko želite da preuzmete modele koje sam trenirao, njih možete pronaći na mom google drive nalogu.
+- Link do prvog modela: https://drive.google.com/drive/folders/19MQGNHY9OC_gA00nLPxxOrtpMQnjSmN8?usp=drive_link 
+- Link do drugog modela: https://drive.google.com/drive/folders/1rykeQ1an3RZCLKm9idaGE61VPE0nAFno?usp=sharing
+
+Kada preuzmete modele, njih možete učitati pozivom metoda:  
+ **keras.models.load_model(*putanja_do_direktorijuma_u_kom_je_model*)**
