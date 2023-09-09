@@ -37,8 +37,8 @@ Za pokretanje jupyter sveske potrebni su vam sledeći paketi:
 
 Takođe je potrebno imati instaliran [**Jupyter notebook**](https://jupyter.org/).
 
-## **Preprocesiranje i raspodela podataka**
-### **Preprocesiranje**
+## **Pretprocesiranje i raspodela podataka**
+### **Pretprocesiranje**
 Svim slikama je promenjena veličina na **64x64** korišćenjem paketa **pillow** i format promenjen na **rgb**. Na kraju su slike pretvorene u **numpy** niz i preoblikovane tako da je oblik svake instance **(64, 64, 3)**.  
 
 Takođe je opseg vrednosti piksela skaliran sa celobrojnog **[0, 255]** na opseg **[0.0, 1.0]** u pokretnom zarezu.
@@ -89,7 +89,7 @@ Možemo videti preprilagođavanje modela ali ono nije veliko što se tiče tačn
 ### **Evaluacija modela**
 
 Model je evauluiran na podacima za testiranje i pokazao je:  
-- Tačnost od **0.8436%**
+- Tačnost od **84.36%**
 - Vrednost fukcije greške od **0.6075**
 
 Dalje želimo da vidimo statistike vezane za pojedinačne klase i koliko je naš model dobar u njihovom pogađanju. Prva stvar koju ćemo pogledati je **matrica konfuzije**, koja se nalazi u direktorijumu `images\architecture1_50epochs_bsize_128`. Nju možemo videti na sledećoj slici:  
@@ -214,7 +214,7 @@ Vidimo da nema velikog preprilagođavanja, ali dok performanse na trening skupu 
 ### **Evaluacija modela**
 
 Na test podacima drugi model je pokazao:
-- Tačnost od **0.875%**
+- Tačnost od **87.5%**
 - Vrednost fukcije greške od **0.4164**
 
 Sada možemo pogledati i napredne statistike za naš drugi model. Matrica klasifikacije izgleda ovako:
