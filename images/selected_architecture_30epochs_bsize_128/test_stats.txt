@@ -1,0 +1,4 @@
+best_arch = third_arch, 0.5
+
+test loss: 0.4049, 
+test accuracy: 0.8730
